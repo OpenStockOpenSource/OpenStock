@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenStock.Web", "OpenStock.Web\OpenStock.Web.csproj", "{724055BE-C0BB-4594-89C2-EAFFE8833238}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Modelagem de Entidades", "0 - Modelagem de Entidades", "{E54F8BF2-7A3E-4313-9B52-496B745E484A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - Camada de Apresentação", "1.1 - Camada de Apresentação", "{110AB619-2A80-4506-8F1A-71FB900DD8BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Sistema", "1 - Sistema", "{FDE52ADC-FBF7-448D-A58C-05CB6CEB1F9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 - Camada de Acesso a Dados", "1.2 - Camada de Acesso a Dados", "{F24AD9AB-86DB-48F4-ABEA-42B19F62C1A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenStock.Entity", "OpenStock.Entity\OpenStock.Entity.csproj", "{5B87F831-76A6-4DA2-B759-1AEA048B8A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenStock.DataAccess", "OpenStock.DataAccess\OpenStock.DataAccess.csproj", "{E3718254-5FC5-4CF8-BC54-37C30F5B41F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{724055BE-C0BB-4594-89C2-EAFFE8833238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724055BE-C0BB-4594-89C2-EAFFE8833238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724055BE-C0BB-4594-89C2-EAFFE8833238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724055BE-C0BB-4594-89C2-EAFFE8833238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B87F831-76A6-4DA2-B759-1AEA048B8A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B87F831-76A6-4DA2-B759-1AEA048B8A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B87F831-76A6-4DA2-B759-1AEA048B8A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B87F831-76A6-4DA2-B759-1AEA048B8A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3718254-5FC5-4CF8-BC54-37C30F5B41F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3718254-5FC5-4CF8-BC54-37C30F5B41F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3718254-5FC5-4CF8-BC54-37C30F5B41F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3718254-5FC5-4CF8-BC54-37C30F5B41F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{724055BE-C0BB-4594-89C2-EAFFE8833238} = {110AB619-2A80-4506-8F1A-71FB900DD8BD}
+		{110AB619-2A80-4506-8F1A-71FB900DD8BD} = {FDE52ADC-FBF7-448D-A58C-05CB6CEB1F9C}
+		{F24AD9AB-86DB-48F4-ABEA-42B19F62C1A6} = {FDE52ADC-FBF7-448D-A58C-05CB6CEB1F9C}
+		{5B87F831-76A6-4DA2-B759-1AEA048B8A44} = {E54F8BF2-7A3E-4313-9B52-496B745E484A}
+		{E3718254-5FC5-4CF8-BC54-37C30F5B41F2} = {F24AD9AB-86DB-48F4-ABEA-42B19F62C1A6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A67DA3D-16C3-4E3D-BB0C-850756D4EBD1}
+	EndGlobalSection
+EndGlobal
