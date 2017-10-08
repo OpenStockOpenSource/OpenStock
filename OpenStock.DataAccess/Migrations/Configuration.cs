@@ -5,7 +5,8 @@ using System.Data.Entity.Migrations;
 using System.Linq;
 using MySql.Data.Entity;
 using System.Security.Claims;
-using OpenStock.DataAccess.Context.Persistence.Contexto;
+using OpenStock.DataAccess.Context;
+
 
 namespace OpenStock.DataAccess.Migrations
 {
