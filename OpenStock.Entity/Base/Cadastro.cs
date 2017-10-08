@@ -11,6 +11,7 @@ namespace OpenStock.Entity.Base
     /// </summary>
     public class Cadastro
     {
+        public long Id { get; set; }
         public string CadastradoPor { get; set; }
         public string EditadoPor { get; set; }
         public DateTime DataCadastro { get; set; }
