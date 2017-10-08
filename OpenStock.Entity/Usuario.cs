@@ -15,19 +15,18 @@ namespace OpenStock.Entity
         public string Senha { get; set; }
         public string Foto { get; set; }
 
-        public Usuario()
-        {
-
-        }
-
-        public Usuario(int id, string nome, string login, string senha, string foto)
-        {
-            Id = id;
-            Nome = nome;
-            Login = login;
-            Senha = senha;
-            Foto = foto;
-        }
+        //public Usuario()
+        //{
+        //}
+        // Usar Object Initializer
+        //public Usuario(int id, string nome, string login, string senha, string foto)
+        //{
+        //    Id = id;
+        //    Nome = nome;
+        //    Login = login;
+        //    Senha = senha;
+        //    Foto = foto;
+        //}
 
         public override string ToString()
         {
